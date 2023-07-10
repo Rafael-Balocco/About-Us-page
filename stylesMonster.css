@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #7df079;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right:0;    
+}
+
+header h1 {
+    font-size: 35px;
+    color: #333;
+    margin-right: 450px;
+  }
+
+  .logo-image {
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-right: 80px;
+  }
+
+  header nav ul li a {
+    font-family: Georgia;
+    font-size: 20px;
+    color: #333;
+  }
+
+  main{
+    background-color: #ccccca;
+    padding: 80px;
+    margin-top: 80px; 
+    width: 100%;
+
+  }
+
+  main h1{
+      font-size: 50px;
+      color: #000000;
+      text-align: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .Main_Image {
+    margin-left: 200px;
+    width: 500px;
+    height: auto;
+  }
+
+  .fig {
+    margin-left: 315px;
+    font-style: italic;
+  }
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .social-icons .social-icon-insta img{
+    width: 50px;
+    height: 30px;
+  }
+
+  .social-icons .social-icon-face img{
+    width: 27px;
+    height: 27px;
+  }
+
+
+  .company-info {
+    font-size: 14px;
+    color: #000000;
+  }
